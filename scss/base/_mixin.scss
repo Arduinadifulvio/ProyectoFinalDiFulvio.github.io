@@ -1,0 +1,21 @@
+@mixin barradenavegacion{
+
+    font-size: 20px;
+    background-color: bisque;
+    padding: 20px
+
+}
+.footer{
+@include barradenavegacion();
+}
+
+@mixin barra ($size, $bg-color, $p){
+    font-size: $size;
+    background-color: $bg-color;
+    padding: $p;
+
+}
+
+.barradenavegacion{
+    @include barra(20px, bisque, 100px)
+}

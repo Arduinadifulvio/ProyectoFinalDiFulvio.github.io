@@ -1,0 +1,151 @@
+.parrafos, .titulos {
+  align-content: center;
+}
+
+.titulos {
+  font-size: 50px;
+}
+
+.parrafos {
+  background-color: bisque;
+}
+
+.empresaImg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgEmp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+html h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: rgb(68, 48, 122);
+}
+html h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: rgb(52, 37, 95);
+}
+html p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  color: rgb(68, 48, 122);
+}
+
+.bg-color {
+  background-color: rgb(247, 247, 252);
+}
+
+.center {
+  text-align: center;
+}
+
+.p-seguridad {
+  text-align: center;
+  font-size: 24px;
+}
+
+.para {
+  color: gray;
+}
+
+.tituloseccion {
+  margin-left: 55px;
+  margin-bottom: 55px;
+}
+
+#imgseguridadM {
+  display: block;
+  margin: auto;
+}
+
+.h1seguridad {
+  margin-bottom: 40px;
+  margin-top: 25px;
+  text-align: center;
+  display: grid;
+  justify-content: space-around;
+}
+
+.pseguridad {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anim:hover {
+  transform: scale(0.5);
+  transition: all 2s;
+}
+
+.icono {
+  float: left;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  font-size: 20px;
+  background-color: bisque;
+  padding: 20px;
+}
+
+.barradenavegacion {
+  font-size: 20px;
+  background-color: bisque;
+  padding: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  padding: 15px;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(247, 68, 5);
+  color: white;
+  text-align: center;
+}
+footer p {
+  color: black;
+}
+footer h2 {
+  color: black;
+}
+
+.nav-bar-orinoco {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-collapse {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+/*# sourceMappingURL=style.css.map */

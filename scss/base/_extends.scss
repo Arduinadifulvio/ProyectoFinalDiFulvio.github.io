@@ -1,0 +1,14 @@
+%disposicion{
+    
+    align-content: center;
+}
+
+.titulos{
+    font-size: 50px;
+    @extend %disposicion; 
+}
+
+.parrafos{
+  background-color: bisque;
+  @extend %disposicion;
+}

@@ -1,0 +1,15 @@
+footer {
+	margin: 0;
+	padding: 15px;
+	display: grid;
+	justify-content: center;
+	background-color: $background-color_3;
+	color: $color_3;
+	text-align: center;
+	p {
+		color: $color_4;
+	}
+	h2 {
+		color: $color_4;
+	}
+}

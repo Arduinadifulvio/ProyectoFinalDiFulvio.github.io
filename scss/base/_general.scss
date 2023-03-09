@@ -1,0 +1,68 @@
+.empresaImg {
+	display: flex;
+	justify-content: flex-end;
+}
+.imgEmp {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+html {
+	h1 {
+		font-family: $font-family_1;
+		font-size: 50px;
+		color: $color_1;
+	}
+	h2 {
+		font-family: $font-family_1;
+		font-size: 24px;
+		color: $color_2;
+	}
+	p {
+		font-family: $font-family_1;
+		font-size: 19px;
+		color: $color_1;
+	}
+}
+.bg-color {
+	background-color: $background-color_2;
+}
+.center {
+	text-align: center;
+}
+.p-seguridad {
+	text-align: center;
+	font-size: 24px;
+}
+.para {
+	color: $color_5;
+}
+.tituloseccion {
+	margin-left: 55px;
+	margin-bottom: 55px;
+}
+
+.h1seguridad {
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 50px 0px;
+	font-size: 1.8rem;
+}
+.pseguridad {
+	text-align: center;
+	font-size: 24px;
+	font-family: $font-family_1;
+}
+.anim {
+	&:hover {
+		transform: scale(0.5);
+		transition: all 2s;
+	}
+}
+.icono {
+	float: left;
+}
+.map {
+	display: flex;
+	justify-content: center;
+}
